@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	font-weight:bold;
+	margin:0;
+	padding:0;
+}
+.m_left{
+	padding-left:1em;
+	padding-top:1em;
+	width:35%;
+	float:left;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+}
+#dataplay td{
+	height:2em;
+}
+#dataplay td:nth-child(2){
+	width:7em;
+	text-align:right;
+	}
+#dataplay td:nth-child(1){
+	width:16em;
+	text-align:left;
+	
+}
+.data{
+	margin-left:2em;
+	margin-top:1em;
+}
+.stepTitle{
+	font-size:1.17em;
+	
+}
+.stepBody{
+	color:#CCC;
+}
+.m_right{
+	position:relative;
+	height:100%;
+	width:auto;
+	float:left;
+	}	
+#calendar-container{
+	float: right;
+	margin-left: 1em; 
+	margin-bottom: 1em;
+	}
